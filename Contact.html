@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/Contact.css">
+    <title>CodingSolution</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class=navbar>
+            <div class="container">
+                <div id=menu>
+                    <label for="check" style="cursor: pointer;">Menu
+                        <div class="hamburger">
+                            <div class="lines">
+                            </div>
+                            <div class="lines">
+                            </div>
+                            <div class="lines">
+                            </div>
+                        </div>
+                    </label>
+                    <input type="checkbox" id=check style=visibility:hidden>
+                </div>
+            </div>
+            <ul class="navitems">
+                <li class="liitems" id=title> <a href="index.html">CodingSolution</a> </li>
+                <li class="liitems"> <a href="index.html">Home</a> </li>
+                <li class="liitems"><a href="About.html">About</a></li>
+                <li class="liitems"><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class=box>
+            <h1>Contact Me</h1>
+            <span id="typing" ></span>
+        </div>
+    </header>
+    <section class=section>
+        <form action="" class="contact">
+            <input class="input" type="text" id="Name" name="name" placeholder="Name" required>
+            <hr  id=namehr class="hr">
+            <input class="input" type="email" id="Email" name="email" placeholder="Email" required>
+            <hr id=emailhr  class="hr">
+            <input class="input" type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+            <hr id=phonehr  class="hr">
+            <textarea class="input" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <hr  id=messagehr class="hr">
+            <div class=label>
+                <input type="submit">
+            </div>
+        </form>
+    </section>
+    <hr>
+    <footer class="fotter">
+        <div class=div>
+            <div class="footitems">
+                <a href="#"><img src="img/pngguru.com.png" alt="" class="icon"></a>
+            </div>
+            <div class="footitems">
+                <a href="#"><img src="img/hiclipart.com.png" alt="" class="icon"></a>
+            </div>
+            <div class="footitems">
+                <a href="#"> <img id=icon src="img/uokpl.rs-instagram-png-236.png" alt="" class="icon"></a>
+            </div>
+        </div>
+        <span>Copyright &copy CodingSolution 2020 </span>
+    </footer>
+    <script src="js/Hambuger.js"></script>
+    <script src="Js/contact.js"></script>
+</body>
+
+</html>
